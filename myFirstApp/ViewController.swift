@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 
     @IBAction func sendBtn(_ sender: Any) { 
         if textField.text == "" {
-            let alert = UIAlertController(title: "Uyari", message: "Mesaj alanı Boş Bırakılamaz.", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Uyarı", message: "Mesaj alanı Boş Bırakılamaz.", preferredStyle: UIAlertController.Style.alert)
             let ok = UIAlertAction(title: "Tamam", style: UIAlertAction.Style.default, handler: nil)
             alert.addAction(ok)
             present(alert, animated: true, completion: nil)
